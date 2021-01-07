@@ -7,6 +7,7 @@ class Question(db.Model):
     create_date = db.Column(db.DateTime(), nullable=False)
 
 
+
 class Answer(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     question_id = db.Column(
